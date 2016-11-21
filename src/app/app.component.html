@@ -1,0 +1,10 @@
+<h1>
+    start
+    <div *ngIf="mass.length > 0">
+        {{title}}
+        <input type="text" name="y" (keyup.enter)="addNew(inputMy.value) ; inputMy.value = ''" #inputMy>
+        <button (click)="addNew(inputMy.value) ;  inputMy.value = '' " >Добавить</button>
+        <li *ngFor="let per of mass; let i = index;">
+            {{per}} {{i}} </li>
+    </div>
+</h1>
