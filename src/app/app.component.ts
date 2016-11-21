@@ -9,7 +9,7 @@ export class AppComponent {
   mass: string[];
   title = 'Данные есть';
   constructor () {
-    this.mass = ['one', 'two', 'tree'];
+    this.mass = ['one', 'two', 'tree','pgpgpasha'];
   }
   
   addNew(y: string) {

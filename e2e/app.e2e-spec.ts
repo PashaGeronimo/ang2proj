@@ -1,10 +1,10 @@
-import { Ang2Page } from './app.po';
+import { AngFinPage } from './app.po';
 
-describe('ang2 App', function() {
-  let page: Ang2Page;
+describe('ang-fin App', function() {
+  let page: AngFinPage;
 
   beforeEach(() => {
-    page = new Ang2Page();
+    page = new AngFinPage();
   });
 
   it('should display message saying app works', () => {
